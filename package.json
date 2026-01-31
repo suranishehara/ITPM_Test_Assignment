@@ -1,9 +1,13 @@
 {
   "name": "it23218130",
   "version": "1.0.0",
-  "description": "",
+  "description": "Singlish to Sinhala Translator Tests",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
